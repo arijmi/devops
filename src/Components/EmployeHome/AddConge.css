@@ -1,0 +1,92 @@
+
+
+.add-conge h2 {
+    text-align: center;
+}
+
+.add-conge form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-conge form div {
+    margin-bottom: 15px;
+}
+
+.add-conge form label {
+    font-weight: bold;
+}
+
+.add-conge form input,
+.add-conge form textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.add-conge form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-conge form button:hover {
+    background-color: #0056b3;
+}
+.add-conge {
+    max-width: 90%;
+    margin: 0 auto;
+    
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,113 @@
+.conge-user {
+    padding: 20px;
+}
+
+.conge-user h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.conge-user table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.conge-user th, .conge-user td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.conge-user th {
+    background-color: #f2f2f2;
+}
+
+.conge-user td {
+    background-color: #fafafa;
+}
+
+.conge-user p {
+    font-size: 18px;
+    color: #888;
+}
+.conge-user {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.search-filters {
+    margin-bottom: 15px;
+}
+
+.search-input {
+    padding: 8px;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.conge-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.conge-table th,
+.conge-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.conge-table th {
+    background-color: #f5f5f5;
+}
+
+.conge-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.action-icons .icon-approve {
+    color: green;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.action-icons .icon-reject {
+    color: red;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.action-icons .icon-delete {
+    color: grey;
+    cursor: pointer;
+}
+
+.action-icons .icon-approve:hover {
+    color: #32cd32;
+}
+
+.action-icons .icon-reject:hover {
+    color: #ff6347;
+}
+
+.action-icons .icon-delete:hover {
+    color: #a9a9a9;
+}
+.status-accepter {
+    color: green;
+    font-weight: bold;
+}
+
+.status-refuser {
+    color: red;
+    font-weight: bold;
+}
+
+.status-attend {
+    color: orange;
+    font-weight: bold;
+}

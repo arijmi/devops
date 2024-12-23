@@ -1,0 +1,120 @@
+/* General Styles */
+h1 {
+    text-align: center;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Main Container */
+.employee-home-container {
+    padding: 20px;
+    max-width: 90%;
+    margin: auto;
+    background: #f9f9f9;
+    border-radius: 10px;
+}
+
+/* Styling for Employee Details and Timesheet */
+.employee-details,
+.todays-timesheet {
+    flex: 1; /* Allows both sections to share space equally */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.details-and-timesheet {
+    display: flex;
+    gap: 20px; /* Spacing between sections */
+    margin-bottom: 30px;
+}
+
+/* Styling for Weekly Schedule Table */
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+}
+
+.schedule-table th, 
+.schedule-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.schedule-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.schedule-table tr:nth-child(even) {
+    background-color: #e6f7ff; /* Light blue for better readability */
+}
+
+.schedule-table tr:nth-child(odd) {
+    background-color: #ffffff; /* White for alternate rows */
+}
+
+/* Styling for Leave Dashboard */
+.leave-dashboard {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.leave-dashboard h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.chart-container {
+    width: 100%;
+    height: 400px; /* Adjust height based on your preference */
+}
+/* General Styling for Today's Timesheet */
+.todays-timesheet {
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Conditional Color Classes */
+.todays-timesheet.accepter {
+    background-color: #4caf50; /* Green */
+    color: white;
+}
+
+.todays-timesheet.refuser {
+    background-color: #f44336; /* Red */
+    color: white;
+}
+
+.todays-timesheet.attend {
+    background-color: #ff9800; /* Orange */
+    color: white;
+}

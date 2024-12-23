@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    height: 100vh; /* Full viewport height */
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    background:rgb(28, 3, 51); 
+  
+}
+
+form {
+    
+    padding: 20px; /* Padding around form */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(213, 253, 193, 0.141); /* Subtle shadow */
+}
+
+.wrapper h1 {
+    margin-bottom: 20px; /* Space below heading */
+    text-align: center;
+    color: #ffffff;
+
+}
+
+.input-box .icon{
+    position: absolute; /* Position for icon alignment */
+   
+    color: black;
+    top: 44%;
+    left: 900px;
+    transform: translateY(-50%); /* Adjust for centering */
+    font-size: 18px;
+}
+.input-box .icon1{
+    position: absolute; /* Position for icon alignment */
+    left: 900px;
+    color: black;
+    top: 39%;
+    transform: translateY(-50%); /* Adjust for centering */
+    font-size: 16px;
+}
+
+
+.input-box input {
+    width: 100%; /* Full width */
+    margin-top: 10px;
+    top: 50px;
+    padding: 10px; /* Padding inside input */
+    padding-left: 40px; /* Space for icon */
+    
+    border-radius: 40px; /* Rounded corners */
+}
+
+
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between; /* Space between checkbox and link */
+    margin-bottom: 20px; /* Space below this section */
+}
+
+button {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding for button */
+    background-color: #56525f; /* Button color */
+   
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
+
+.register-link {
+    text-align: center; /* Center align the register link */
+}
+.submit-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 60px auto;
+   
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: #56525f;
+    width: 220px;
+    right:59px ;
+    color: azure;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+
+}
+
+.gray{
+    background: #e1dfe4;
+    color: #827e7e;
+
+}
+.error{
+    color: red;
+}

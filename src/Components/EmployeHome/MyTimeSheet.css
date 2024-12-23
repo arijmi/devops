@@ -1,0 +1,90 @@
+/* MyTimeSheet.css */
+
+.timesheet-page {
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.my-timesheet-container {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.my-timesheet-container h2 {
+    text-align: center;
+    color: #333;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.timesheet-details {
+    margin-top: 20px;
+    color: #555;
+}
+
+.employee-info p {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: #444;
+}
+
+.week-schedule {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.day-schedule {
+    flex: 1 1 calc(33.333% - 20px);
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #333;
+}
+
+.day-schedule h4 {
+    font-size: 1.2rem;
+    color: #0066cc;
+    margin-bottom: 8px;
+}
+
+.day-schedule p {
+    font-size: 0.9rem;
+    margin: 5px 0;
+    color: #666;
+}
+
+footer {
+    margin-top: auto;
+}
+/* MyTimeSheet.css */
+.status-accepted {
+    background-color: #d4edda; /* light green */
+    color: #155724; /* dark green text */
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.status-refused {
+    background-color: #f8d7da; /* light red */
+    color: #721c24; /* dark red text */
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.status-pending {
+    background-color: #fff3cd; /* light yellow */
+    color: #856404; /* dark yellow text */
+    padding: 5px;
+    border-radius: 4px;
+}

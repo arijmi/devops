@@ -1,0 +1,56 @@
+/* Container styles */
+.my-evaluation-container {
+    padding: 20px;
+}
+
+/* Header and Footer styles */
+header, footer {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+}
+
+/* Evaluation cards */
+.evaluation-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.evaluation-card {
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    margin: 10px;
+}
+
+.evaluation-card:hover {
+    transform: scale(1.05);
+}
+
+.evaluation-card h3,
+.evaluation-card p {
+    margin: 5px 0;
+}
+
+/* Card colors */
+.evaluation-card.red {
+    background-color: red;
+}
+
+.evaluation-card.orange {
+    background-color: orange;
+}
+
+.evaluation-card.blue {
+    background-color: blue;
+}
+
+.evaluation-card.green {
+    background-color: green;
+}
